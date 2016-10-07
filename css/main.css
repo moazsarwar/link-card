@@ -1,0 +1,83 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font: normal 100%/1.5 Georgia, serif;
+}
+
+*, *::before.*::after {
+  -webkit-box-sizing: indherit;
+  box-sizing: indherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.link-card {
+  border: 3px solid #785439;
+  border-radius: 8px;
+  display: block;
+  text-decoration: none;
+  max-width: 25rem;
+  padding: 1em;
+  color: #512200;
+  min-width: 18rem;
+  margin: 0 auto 0;
+  background-color: #cabdb2;
+  opacity: 0.9;
+}
+
+.link-card:hover {
+  opacity: 1;
+}
+
+.link-card h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #512200;
+  margin: 0;
+}
+
+.link-card div:last-child {
+  display: block;
+  text-align: center;
+}
+
+p.btn {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  padding: 0.3em 0.8em;
+  background-color: #785439;
+  border: 3px solid #785439;
+}
+
+p.btn:hover {
+  background-color: #ffffff;
+  color: #785439;
+}
+
+.link-card dl {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.link-card dd, dt {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.link-card dd {
+  font-style: italic;
+}
